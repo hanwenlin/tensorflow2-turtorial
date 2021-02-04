@@ -82,3 +82,4 @@ h3 = encode_model(autoencoder_input)
 autoencoder_output = decode_model(h3)
 autoencoder = keras.Model(inputs=autoencoder_input, outputs=autoencoder_output, name='autoencoder')
 autoencoder.summary()
+
